@@ -1,0 +1,61 @@
+a.nav-link {
+    color:white;
+    padding: 20px;
+    font-family: fantasy;
+}
+a.nav-link:hover{
+    color:rgb(245, 160, 1);
+}
+.dot {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background-color: #0091ea;
+}
+@keyframes bounce {
+    0% { transform: translateY(0);}
+    20% { transform: translateY(-5px);}
+    40% { transform: translateY(0);}
+}
+a.nav-link {
+    animation: bounce 1000ms infinite;
+}
+a.nav-link:nth-of-type(2) {
+animation-delay: 50ms;
+}
+a.nav-link:nth-of-type(3) {
+    animation-delay:  100ms;
+}
+div.container-fluid {
+    text-align: center;
+    align-items: center;
+}
+p {
+    font-family: sans-serif;
+}
+main {
+    background-color: #1C1C1C;
+    padding: 150px;
+}
+div.card {
+    padding: 50px;
+    margin-right: 550px;
+    text-align: center;
+}
+nav.navbar.navbar-expand-lg {
+    background-color: #1C1C1C;
+}
+section.intro {
+    background-color: #1C1C1C;
+}
+r {
+    color: white;
+}
+a#btndown.btn.btn-cv {
+    color: rgb(255, 255, 255);
+    background-color: tomato;
+}
+a#btndown.btn.btn-bt {
+    color: rgb(255, 255, 255);
+    background-color: rgb(2, 92, 17);
+}
